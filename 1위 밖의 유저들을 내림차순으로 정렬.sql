@@ -1,6 +1,6 @@
-<!-- 1À§ ¿ÜÀÇ ¼øÀ§ ¸®½ºÆ® ºÒ·¯¿À±â  -->
-	<!-- Á¶È¸¼ö¸¦ ±âÁØÀ¸·Î ³»¸²Â÷¼ø Á¤·Ä  -->
+<!-- 1ìœ„ ì™¸ì˜ ìˆœìœ„ ë¦¬ìŠ¤íŠ¸ ë¶ˆëŸ¬ì˜¤ê¸°  -->
+	<!-- ì¡°íšŒìˆ˜ë¥¼ ê¸°ì¤€ìœ¼ë¡œ ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬ + ê·¸ì¡°íšŒìˆ˜ì— í•´ë‹¹í•˜ëŠ” ìœ ì €ê°€ ì“´ ê¸€ì˜ ì œëª©ì„ ê°€ì ¸ì˜¤ê¸° -->
 	<select id="UserRanking" resultType="com.exhibition.project.BoardDto.BoardDto">
-	select distinct(userid),nclick,rdate from board where nclick >=150 order by nclick desc
+	select distinct(userid),nclick,rdate,boardtopic from board where nclick >=150 order by nclick desc
 	
 	</select>
